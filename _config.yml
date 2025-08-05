@@ -16,9 +16,11 @@
 title: Personal Page
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I'm a driven data scientist with a Ph.D. fueled by innovative research. My technical skills are rock-solid—I'm proficient in Python, 
+  R, and SQL for tackling large datasets, and I have extensive experience building and optimizing machine learning models using 
+  TensorFlow, PyTorch, and scikit-learn. I excel at developing predictive algorithms, streamlining data pipelines with tools 
+  and transforming complex data into clear, actionable insights. I'm passionate about leading high-impact projects, solving 
+  tough problems, and mentoring teams. I enjoy thinking about data and how we see data with its implications well beyond a single domain. 
 
 github_username: celalp
 minimal_mistakes_skin: dirt
@@ -68,9 +70,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/celalp"
-    - label: "Instagram"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/alper-celik-51336460/"
+    - label: Google Scholar"
+      icon: "fab fa-fw fa-google-scholar"
+      url: https://scholar.google.ca/citations?user=pM7OqIYAAAAJ&hl=en
 
 footer:
   links:
