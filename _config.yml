@@ -77,27 +77,19 @@ author:
       icon: "fab fa-fw fa-google-scholar"
       url: https://scholar.google.ca/citations?user=pM7OqIYAAAAJ&hl=en
 
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/celalp"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/alper-celik-51336460/"
 
 defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: papers
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"
