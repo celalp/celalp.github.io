@@ -79,7 +79,7 @@ author:
 
 
 defaults:
-  # _posts
+  # _papers
   - scope:
       path: ""
       type: papers
@@ -90,7 +90,7 @@ defaults:
       comments: false
       share: true
       related: false
-  # _pages
+  # _posts
   - scope:
       path: "_pages"
       type: pages
