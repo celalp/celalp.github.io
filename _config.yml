@@ -55,7 +55,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
@@ -81,7 +80,7 @@ author:
 defaults:
   # _papers
   - scope:
-      path: ""
+      path: "_papers"
       type: papers
     values:
       layout: single
@@ -92,8 +91,15 @@ defaults:
       related: false
   # _posts
   - scope:
-      path: "_pages"
-      type: pages
+      path: "_posts"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+  #_talks
+  - scope:
+    path: "_talks"
+    type: talks
     values:
       layout: single
       author_profile: true
