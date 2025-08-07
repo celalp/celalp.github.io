@@ -1,13 +1,14 @@
 ---
-title: "Talk Title Here"
-collection: talks
+title: "Blog Post Title Here"
 layout: single
-author_profile: false
-date: 2024-09-15
-event: "Conference, Meetup, or Seminar Name"
-location: "City, Country (or Virtual)"
-talkurl: "https://example.com/talk-slides.pdf"
-excerpt: "A short description or abstract of your talk."
+author_profile: true
+date: 2024-08-07
+categories:
+  - blog
+tags:
+  - machine learning
+  - bioinformatics
+excerpt: "Optional short summary shown on the blog index page."
 ---
 
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.

@@ -26,6 +26,11 @@ github_username: celalp
 minimal_mistakes_skin: dirt
 search: true
 
+footer:
+  links: []
+  copyright:
+    enabled: false
+
 # Build settings
 markdown: kramdown
 remote_theme: celalp/minimal-mistakes
