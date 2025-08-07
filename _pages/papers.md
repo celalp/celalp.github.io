@@ -1,8 +1,8 @@
 ---
 title: "Papers"
 permalink: /papers/
-layout: collection
+layout: home
 collection: papers
-entries_layout: list
+entries_layout: home
 author_profile: true
 ---

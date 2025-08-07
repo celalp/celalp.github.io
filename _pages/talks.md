@@ -1,8 +1,8 @@
 ---
 title: "Talks"
 permalink: /talks/
-layout: collection
+layout: home
 collection: talks
-entries_layout: list
+entries_layout: default
 author_profile: true
 ---
