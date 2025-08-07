@@ -78,6 +78,13 @@ author:
       icon: "fab fa-fw fa-google-scholar"
       url: https://scholar.google.ca/citations?user=pM7OqIYAAAAJ&hl=en
 
+collections:
+  papers:
+    output: true
+    permalink: /papers/:path/
+  talks:
+    output: true
+    permalink: /talks/:path/
 
 defaults:
   # _papers
