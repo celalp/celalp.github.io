@@ -1,15 +1,15 @@
 ---
-layout: splash
+layout: single
 title: "Alper Celik"
 permalink: /
 header:
   overlay_color: "#5e616c"
   overlay_filter: "0.3"
-  overlay_image: /assets/images/header.jpg  # Optional background image
   cta_label: "Learn more"
   cta_url: "/about/"
   caption: "Welcome to my academic & data science portfolio"
 excerpt: "Data scientist & researcher at the intersection of machine learning and biology."
+author_profile: true
 ---
 
 ## Recent Papers
