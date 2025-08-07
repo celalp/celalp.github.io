@@ -67,14 +67,14 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://https://celalp.github.io/"
+      url: "https://celalp.github.io/""
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/celalp"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/alper-celik-51336460/"
-    - label: Google Scholar"
+    - label: "Google Scholar"
       icon: "fab fa-fw fa-google-scholar"
       url: https://scholar.google.ca/citations?user=pM7OqIYAAAAJ&hl=en
 
@@ -87,6 +87,9 @@ collections:
   talks:
     output: true
     permalink: /talks/:name/
+  posts:
+    output: true
+    permalink: /posts/:name/
 
 defaults:
   # _papers
