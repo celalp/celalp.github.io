@@ -78,13 +78,15 @@ author:
       icon: "fab fa-fw fa-google-scholar"
       url: https://scholar.google.ca/citations?user=pM7OqIYAAAAJ&hl=en
 
+permalink: /:categories/:title/
+
 collections:
   papers:
     output: true
-    permalink: /papers/:path/
+    permalink: /papers/:name/
   talks:
     output: true
-    permalink: /talks/:path/
+    permalink: /talks/:name/
 
 defaults:
   # _papers
@@ -101,7 +103,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-  #_talks
+  # _talks
   - scope:
       path: "_talks"
       type: talks
@@ -114,4 +116,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
