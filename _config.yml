@@ -31,6 +31,9 @@ footer:
   copyright:
     enabled: false
 
+sass:
+  style: compressed
+
 # Build settings
 markdown: kramdown
 remote_theme: celalp/minimal-mistakes
