@@ -1,6 +1,8 @@
 ---
 permalink: /about/
 title: "About"
+author_profile: true
+layout: about
 ---
 
 During my Ph.D., I immersed myself in advanced scientific research, tackling complex problems with a focus on data-driven discovery. I have developed data analysis pipelines where there was none. I am the first dry (no wet-lab work) graduate of my lab of 30+ years. My work centered on developing novel machine learning models, to analyze intricate datasets and uncover patterns with significant biological implications. The infrastructure and knowledgebase I have built has led to many publications long after my departure from the lab.  

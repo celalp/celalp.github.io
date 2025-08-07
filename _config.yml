@@ -108,4 +108,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope:
+      path: "_about"
+      type: about
+    values:
+      layout: single
+      author_profile: true
 
