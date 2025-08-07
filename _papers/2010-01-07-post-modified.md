@@ -1,12 +1,12 @@
 ---
 title: "Post: Modified Date"
-last_modified_at: 2016-03-09T16:20:02-05:00
-categories:
-  - Papers
-tags:
-  - Post Formats
-  - readability
-  - standard
+collection: papers
+layout: single
+author_profile: false
+venue: "Fictional Journal of Markdown Science"
+date: 2016-03-09
+paperurl: "https://example.com/modified-date-paper.pdf"
+excerpt: "This is a sample paper demonstrating how modified dates appear in layouts using Minimal Mistakes."
 ---
 
 This post has been updated and should show a modified date if used in a layout.
