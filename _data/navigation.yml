@@ -1,11 +1,9 @@
 main:
 - title: "Home"
   url: /
-- title: "Posts"
-  url: /posts/
 - title: "Papers"
   url: /papers/
-- title: "Talks"
-  url: /talks/
+- title: "Projects"
+  url: /projects/
 - title: "About"
   url: /about/

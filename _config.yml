@@ -45,7 +45,6 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
-  - _papers
   - _talks
 
 # Exclude from processing.
@@ -89,9 +88,6 @@ author:
 permalink: /:categories/:title/
 
 collections:
-  papers:
-    output: true
-    permalink: /papers/:name/
   talks:
     output: true
     permalink: /talks/:name/
@@ -100,13 +96,6 @@ collections:
     permalink: /posts/:name/
 
 defaults:
-  # _papers
-  - scope:
-      path: "_papers"
-      type: papers
-    values:
-      layout: single
-      author_profile: true
   # _posts
   - scope:
       path: "_posts"

@@ -13,25 +13,17 @@ author_profile: true
 
 ## Recent Papers
 
-{% for paper in site.papers limit:3 %}
-- [{{ paper.title }}]({{ paper.url | relative_url }})  
-  <small><em>{{ paper.venue }}</em> · {{ paper.date | date: "%Y" }}</small>
+{% assign papers_page = site.pages | where: "permalink", "/papers/" | first %}
+{% for paper in papers_page.papers limit:3 %}
+- [{{ paper.title }}](/papers/#{{ paper.title | slugify }})  
+  <small><em>{{ paper.venue }}</em> · {{ paper.date | slice: 0, 4 }}</small>
 {% endfor %}
 
 ---
 
-## Recent Talks
-
-{% for talk in site.talks limit:3 %}
-- [{{ talk.title }}]({{ talk.url | relative_url }})  
-  <small><em>{{ talk.event }}</em> · {{ talk.date | date: "%Y" }}</small>
-{% endfor %}
-
----
-
-## Recent Blog Posts
-
-{% for post in site.posts limit:3 %}
-- [{{ post.title }}]({{ post.url | relative_url }})  
-  <small>{{ post.date | date: "%B %d, %Y" }}</small>
+## Projects
+{% assign projects_page = site.pages | where: "permalink", "/projects/" | first %}
+{% for project in projects_page.projects limit:3 %}
+- [{{ project.title }}](/projects/)  
+  <small>{{ project.description }}</small>
 {% endfor %}
