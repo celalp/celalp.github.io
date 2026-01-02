@@ -15,8 +15,10 @@ projects:
     description: "Mnemosyne, the Titan goddess of memory, was the daughter of Uranus and Gaia and mother of the nine muses. Inspired by her role as the source of inspiration and knowledge, this project aims to bring together the different stages of qualitative research into one integrated system. The ultimate goal of this project is to make qualitative research more accessible and reproducible. This project is under heavy development and is currently in alpha. I am planning this project to be open source and available on GitHub."
     link: "https://celalp.github.io/mnemosyne/"
   - title: "Diagnostic RNA-Seq Pipeline"
-    description: Despite advances in genome sequencing, many individuals with rare genetic disorders remain undiagnosed. Transcriptional profiling via RNA-seq can reveal functional impacts of DNA variants and improve diagnosis. We developed a robust pipeline to analyze RNA-seq data and improve diagnosis of rare genetic disorders in a tissue specific manner. This is the first clinically validated diagnostic RNA-seq pipeline in Toronto that is being actively used in SickKids Genome Clinic.
+    description: "Despite advances in genome sequencing, many individuals with rare genetic disorders remain undiagnosed. Transcriptional profiling via RNA-seq can reveal functional impacts of DNA variants and improve diagnosis. We developed a robust pipeline to analyze RNA-seq data and improve diagnosis of rare genetic disorders in a tissue specific manner. This is the first clinically validated diagnostic RNA-seq pipeline in Toronto that is being actively used in SickKids Genome Clinic."
 ---
+
+These some of my longer term projects that I am currently working on. These projects range from multi year collaborations to smaller scale projects that I am working on in my free time. Not all my publications are reflected in the project list, I am including things that are longer term collaborations or projects that lead to more than just publications.
 
 {% for project in page.projects %}
 ## {{ project.title }}

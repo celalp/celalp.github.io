@@ -4,8 +4,7 @@ permalink: /papers/
 layout: single
 author_profile: true
 papers:
-  - title: The Genomic Architecture of Pregnancy-Associated Plasticity in the Maternal
-      Mouse Hippocampus
+  - title: AI-Driven Injury Reporting in Pediatric Emergency Departments
     synopsis: NLP transformer models accurately identified 90% of pediatric injury cases
       from ED records, reducing manual review by over 80% and enabling faster, real-time
       surveillance for CHIRPP.

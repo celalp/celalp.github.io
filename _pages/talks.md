@@ -7,7 +7,6 @@ talks:
   # - title: "Talk Title"
   #   venue: "Venue Name"
   #   date: 2024-01-01
-  #   link: "#"
 ---
 
 {% for talk in page.talks %}
