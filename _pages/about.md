@@ -1,129 +1,187 @@
 ---
-title: "About"
+title: "About & Resume"
 permalink: /about/
 layout: single
 author_profile: true
 ---
 
-During my Ph.D., I immersed myself in advanced scientific research, tackling complex problems with a focus on data-driven discovery. I have developed data analysis pipelines where there was none. I am the first dry (no wet-lab work) graduate of my lab of 30+ years. My work centered on developing novel machine learning models, to analyze intricate datasets and uncover patterns with significant biological implications. The infrastructure and knowledgebase I have built has led to many publications long after my departure from the lab.  
-
-In my role as a senior bioniformatician at SickKids I spent countless hours designing predictive algorithms, to achieve high accuracy and efficiency. This hands-on experience deepened my understanding of how to transform raw data into meaningful insights, grounding my approach in rigorous scientific methodology. From building pipelines to diagnose previously undiagnosible diseases to practically eliminating tedious manual work for injury surveilance systems. 
-
-Beyond modeling, I’ve built and optimized data pipelines using tools like snakemake, enabling efficient processing of large-scale datasets. My projects often involved SQL-driven data exploration to identify trends and test hypotheses, ensuring robust and reproducible results. One of my key achievements was developing a scalable framework for real-time data analysis, which significantly improved the speed and reliability of insights for processing clinical notes with 99%+ accuracy. This work wasn’t just about crunching numbers—it was about asking the right questions and letting the data guide the answers.
-
-I’ve also led collaborative efforts, working with diverse teams to integrate data science into broader scientific investigations. Whether it was refining algorithms to predict outcomes in complex systems or mentoring peers on statistical techniques, I focused on bridging the gap between technical execution and scientific inquiry. My contributions have consistently aimed at advancing knowledge, from crafting visualizations that make complex findings accessible to publishing research that pushes the boundaries of data science applications. I’m driven by the challenge of using data to solve tough problems and the satisfaction of seeing those solutions make a tangible impact.
+<div class="custom-card" style="background: linear-gradient(135deg, #f8fafc 0%, #eef2ff 100%); border-left: 4px solid var(--color-primary);">
+  <h2 style="margin-top:0; color: var(--color-primary);"><i class="fas fa-user-academic"></i> Biography</h2>
+  <p>
+    During my Ph.D., I immersed myself in advanced scientific research, tackling complex biological problems with a focus on data-driven discovery. I developed automated data analysis pipelines where there were none, serving as the first computational (dry-lab) graduate in my lab's 30+ year history. My work centered on developing novel machine learning models to analyze intricate datasets and uncover patterns with significant biological implications. The infrastructure and knowledge base I established continued to power high-impact publications long after my graduation.
+  </p>
+  <p>
+    As a Senior Bioinformatician at the Hospital for Sick Children (SickKids), I design predictive algorithms and machine learning frameworks tailored for high accuracy and computational efficiency. My hands-on experience spans building diagnostic pipelines that pinpoint previously undiagnosable rare genetic disorders to automating clinical injury surveillance systems.
+  </p>
+  <p>
+    Beyond modeling, I build and optimize end-to-end data pipelines using workflow engines like Snakemake and WDL, enabling scalable processing of large-scale genomic and clinical datasets. One of my key achievements includes developing an NLP framework for processing unstructured clinical notes with <strong>99%+ accuracy</strong>, reducing manual effort by over 80%.
+  </p>
+</div>
 
 ---
 
-# Resume
+# <i class="fas fa-file-alt" style="color: var(--color-primary);"></i> Curriculum Vitae
 
-## Summary
-Experienced researcher with a proven track and publication record. Extensive expertise in data science, omics, high performance computing and experimental design.
+<div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem;">
+  <span class="badge badge-tech"><i class="fab fa-python"></i> Python</span>
+  <span class="badge badge-tech"><i class="fas fa-brain"></i> PyTorch</span>
+  <span class="badge badge-tech"><i class="fab fa-r-project"></i> R / Bioconductor</span>
+  <span class="badge badge-tech"><i class="fas fa-database"></i> SQL</span>
+  <span class="badge badge-tech"><i class="fas fa-terminal"></i> Linux / HPC</span>
+  <span class="badge badge-tech"><i class="fas fa-dna"></i> Multi-Omics</span>
+  <span class="badge badge-tech"><i class="fas fa-project-diagram"></i> Snakemake</span>
+  <span class="badge badge-tech"><i class="fab fa-docker"></i> Docker</span>
+</div>
 
-## Work Experience
+## <i class="fas fa-briefcase"></i> Work Experience
 
-### Senior Bioinformatician
-**Hospital for Sick Children, Toronto, ON** (2020-Present)
-*   Leading programming teams for pipeline development for omics data
-*   Leading analytics teams in omics and clinical data analysis projects
-*   Creating data infrastructures for large clinical research datasets
-*   Mentoring junior staff in omics data processing and statistical analysis
-*   Hosting institution wide and city wide seminar in data analysis from omics to data visualization to statistical models and machine learning
-*   Leading data analysis efforts in local, national and international collaborations with researchers, clinicians and pharmaceutical companies
-*   Working in close collaboration with clinicians and scientists to analyze large clinical and genomic datasets
-*   Published findings in numerous peer reviewed journals
-*   Performed data analysis in diverse datasets from NLP to omics to computer vision
+<div class="timeline">
 
-### Bioinformatician
-**Hospital for Sick Children, Toronto, ON** (2017-2020)
-*   Utilize different programming paradigms to automate data processing, analysis and report generation
-*   Performing statistical analysis and training machine-learning methods on diverse data sets including but not limited to genomics, survey data, clinical data and computer vision.
-*   Consulting scientists on grant writing efforts in terms of study and experimental design.
-*   Creating web applications using shiny to communicate clinical data with physicians to assist them in gaining better understanding of their data
-*   Published findings in numerous peer reviewed journals
+  <div class="timeline-item">
+    <h3 class="timeline-role">Senior Bioinformatician</h3>
+    <div class="timeline-company">Hospital for Sick Children (SickKids) · Toronto, ON</div>
+    <div class="timeline-date"><i class="far fa-calendar-alt"></i> 2020 – Present</div>
+    <div class="timeline-desc">
+      <ul>
+        <li>Lead programming and analytics teams in developing scalable multi-omics and clinical data analysis pipelines.</li>
+        <li>Architect end-to-end data infrastructures for massive clinical research datasets across genomics, NLP, and computer vision.</li>
+        <li>Lead data analysis efforts in local, national, and international collaborations with researchers, clinicians, and pharmaceutical leaders.</li>
+        <li>Develop state-of-the-art NLP transformer workflows achieving 99%+ accuracy on unstructured emergency department clinical notes.</li>
+        <li>Host institution-wide and city-wide seminars covering statistical modeling, machine learning, data visualization, and omics analysis.</li>
+        <li>Mentor junior bioinformaticians, data scientists, and clinical researchers in statistical testing and pipeline execution.</li>
+      </ul>
+    </div>
+  </div>
 
-### Co-Investigator (Ontario HIV Treatment Network Endgame Grant)
-**Toronto, ON** (2019-Present)
-*   Lead quantitative data expert, assisted with study design and grant writing process.
-*   Responsible for statistical analysis of patient reported outcomes survey data, and mixed methods data analysis.
+  <div class="timeline-item">
+    <h3 class="timeline-role">Bioinformatician</h3>
+    <div class="timeline-company">Hospital for Sick Children (SickKids) · Toronto, ON</div>
+    <div class="timeline-date"><i class="far fa-calendar-alt"></i> 2017 – 2020</div>
+    <div class="timeline-desc">
+      <ul>
+        <li>Utilized multiple programming paradigms to automate data processing, statistical analysis, and report generation.</li>
+        <li>Trained supervised and unsupervised machine learning models on diverse datasets (genomics, surveys, clinical notes, images).</li>
+        <li>Consulted principal investigators on study design, experimental setup, and grant applications.</li>
+        <li>Created interactive R/Shiny web applications for clinicians to explore and visualize complex patient cohorts.</li>
+      </ul>
+    </div>
+  </div>
 
-### Molecular Data Management Specialist
-**Indoc Research, Toronto, ON** (2017-2018)
-*   Worked with software developers to generate user interfaces for data visualization
-*   Managed genomics data (microarray, NGS) for diverse group of scientists
-*   Generated web applications, R and python packages to help researchers query, download or upload genomics data and perform ETL pipelines in an automated manner
-*   Consulted during development efforts and provided guidance on data analysis and machine learning workflow development
-*   Assumed leadership positions on grant applications and provided expertise on genomics and machine learning efforts
+  <div class="timeline-item">
+    <h3 class="timeline-role">Co-Investigator</h3>
+    <div class="timeline-company">Ontario HIV Treatment Network (Endgame Grant) · Toronto, ON</div>
+    <div class="timeline-date"><i class="far fa-calendar-alt"></i> 2019 – Present</div>
+    <div class="timeline-desc">
+      <ul>
+        <li>Serve as lead quantitative data expert, assisting with study design, grant writing, and quantitative protocol development.</li>
+        <li>Responsible for statistical modeling of patient-reported outcomes (PROs) and mixed-methods survey integration.</li>
+      </ul>
+    </div>
+  </div>
 
-### Ph.D. Thesis Research
-**UMASS Medical School Graduate School of Biomedical Sciences, Worcester, MA, USA** (2008-2017)
-*   Led the establishment of data analysis infrastructure and pipelines for 100+ Next Generation Sequencing data
-*   Performed statistical analyses (parametric, non-parametric population comparisons, regression analysis) of these gene expression profiles and discovered novel insights about cellular regulatory mechanisms
-*   Developed novel data analysis pipelines for handling large datasets with high speed, high precision and low memory footprint
-*   Presented findings at local, national and international professional seminars and conferences to a large community of scientists, published findings in peer-reviewed journals
-*   Mentored several graduate and undergraduate students in various projects and internships from molecular biology to bioinformatics
+  <div class="timeline-item">
+    <h3 class="timeline-role">Molecular Data Management Specialist</h3>
+    <div class="timeline-company">Indoc Research · Toronto, ON</div>
+    <div class="timeline-date"><i class="far fa-calendar-alt"></i> 2017 – 2018</div>
+    <div class="timeline-desc">
+      <ul>
+        <li>Managed large-scale genomics repositories (microarray, NGS) for multi-site research consortiums.</li>
+        <li>Developed open-source R and Python packages for automated ETL workflows and database querying.</li>
+        <li>Collaborated with web developers to design user-friendly data visualization interfaces.</li>
+      </ul>
+    </div>
+  </div>
 
-### Statistician
-**Massachusetts General Hospital Department of Psychiatry, Boston, MA, USA** (2015-2019)
-*   Worked in collaboration with physicians in a multi-site, multi-specialty cohort study to address effects of mindfulness and stress on physician well-being and burnout
-*   Consulted on study design and implementation
-*   Analyzed survey data from multi-site and multi-specialty waitlist-controlled study
-*   Analyzed data from health tracking devices to assess the effect of burnout on behavior
-*   Published results in peer reviewed journals
-*   Collaborated with wearable device manufacturers in algorithm testing, data wrangling and analysis
+  <div class="timeline-item">
+    <h3 class="timeline-role">Ph.D. Thesis Researcher</h3>
+    <div class="timeline-company">UMass Medical School · Worcester, MA, USA</div>
+    <div class="timeline-date"><i class="far fa-calendar-alt"></i> 2008 – 2017</div>
+    <div class="timeline-desc">
+      <ul>
+        <li>Established the core computational data infrastructure for 100+ Next-Generation Sequencing datasets.</li>
+        <li>Discovered novel insights into mRNA decay pathways and translation fidelity using high-throughput sequencing.</li>
+        <li>Engineered high-speed, memory-efficient bioinformatics algorithms to process large-scale transcriptomic data.</li>
+        <li>Published findings in peer-reviewed journals including <em>RNA</em>, <em>eLife</em>, and <em>Methods in Enzymology</em>.</li>
+      </ul>
+    </div>
+  </div>
 
-## Education
+  <div class="timeline-item">
+    <h3 class="timeline-role">Statistician</h3>
+    <div class="timeline-company">Massachusetts General Hospital / Harvard Medical School · Boston, MA</div>
+    <div class="timeline-date"><i class="far fa-calendar-alt"></i> 2015 – 2019</div>
+    <div class="timeline-desc">
+      <ul>
+        <li>Analyzed longitudinal survey data and wearable sensor data in multi-center clinical trials on physician burnout.</li>
+        <li>Co-authored studies in peer-reviewed medical education journals.</li>
+      </ul>
+    </div>
+  </div>
 
-**Ph.D. in Bioinfomatics/Molecular Biology** (2008-2017)
-UMASS Medical School Graduate School of Biomedical Sciences
-*   Thesis title: mRNA Decay Pathways Use Translation Fidelity and Competing Decapping Complexes for Substrate Selection
+</div>
 
-**BSc. in Economics/Molecular Biology** (2004-2008)
-Brown University
-*   Karen T. Romer Undergraduate Teaching and Research Award (2006-2007)
+---
 
-## Skills
+## <i class="fas fa-graduation-cap"></i> Education
 
-### Programming
-*   **Python**: pandas, Pytorch, Keras, numpy, scipy, scikit-learn, opencv, scikit-image, huggingface, spacy, sqlalchemy
-*   **R**: Bioconductor, tidyverse, shiny, data.tables
-*   **Tools**: Git, docker, SQL, linux, Snakemake, WDL, bash, LSF, moab, slurm
+<div class="custom-card">
+  <h3 style="margin-top: 0; color: var(--color-dark);">Ph.D. in Bioinformatics &amp; Molecular Biology</h3>
+  <div style="color: var(--color-primary); font-weight: 600;">UMass Medical School (Graduate School of Biomedical Sciences)</div>
+  <div style="color: var(--color-slate-500); font-size: 0.875rem; margin-bottom: 0.5rem;">2008 – 2017 · Worcester, MA</div>
+  <p style="font-size: 0.925rem; margin-bottom: 0;">
+    <strong>Thesis:</strong> <em>mRNA Decay Pathways Use Translation Fidelity and Competing Decapping Complexes for Substrate Selection</em>
+  </p>
+</div>
 
-### Data Science
-*   Regression analysis, statistical testing, MCMC
-*   Machine learning, SVM, tree-based models
-*   ANNs for computer vision, NLP
-*   Expert in experimental/study design
-*   Experience in handling multi-modal datasets with complex data protocols
+<div class="custom-card">
+  <h3 style="margin-top: 0; color: var(--color-dark);">B.Sc. in Economics &amp; Molecular Biology</h3>
+  <div style="color: var(--color-primary); font-weight: 600;">Brown University</div>
+  <div style="color: var(--color-slate-500); font-size: 0.875rem; margin-bottom: 0.5rem;">2004 – 2008 · Providence, RI</div>
+  <p style="font-size: 0.925rem; margin-bottom: 0;">
+    Karen T. Romer Undergraduate Teaching and Research Award (2006–2007)
+  </p>
+</div>
 
-### Communication
-*   Effective, engaging presenter
-*   Extensive experience working with technical and non-technical clients
+---
 
-### OMICS
-*   **WGS, WES**: SNV and SV calling annotations, statistical testing
-*   **RNA-Seq**: Differential expression, Pathway enrichment, Novel splicing event detection
-*   **Single Cell methods**: scRNA-Seq data processing and analysis, scATAC-Seq data processing and analysis
-*   **cyTOF**: data processing, gating, differential expression/abundance
+## <i class="fas fa-tools"></i> Core Technical Skills
 
-### NLP
-*   Rule and model based analysis
-*   Transfer learning using LLMs
-*   Context aware feature extraction, target detection
+<div class="projects-grid">
 
-### Computer Vision
-*   Processing clinical images and videos
-*   Segmentation, movement detection, background subtraction
-*   Object detection
+  <div class="project-card">
+    <h4 style="margin-top:0;"><i class="fas fa-code"></i> Programming &amp; Frameworks</h4>
+    <p style="font-size: 0.9rem; color: var(--color-slate-600);">
+      <strong>Python:</strong> PyTorch, pandas, NumPy, SciPy, scikit-learn, OpenCV, Hugging Face, spaCy, SQLAlchemy<br>
+      <strong>R:</strong> Bioconductor, Tidyverse, Shiny, data.table<br>
+      <strong>Web &amp; DB:</strong> HTML/CSS, SQL (PostgreSQL, SQLite), REST APIs
+    </p>
+  </div>
 
-### Statistical Modelling
-*   Regression analysis, generalized linear models, mixed effect models, MCMC
-*   Statistical testing parametric, non-parametric comparisons
-*   Time series analysis
-*   Supervised and unsupervised modelling, clustering
+  <div class="project-card">
+    <h4 style="margin-top:0;"><i class="fas fa-server"></i> HPC &amp; Infrastructure</h4>
+    <p style="font-size: 0.9rem; color: var(--color-slate-600);">
+      <strong>Workflow Engines:</strong> Snakemake, WDL<br>
+      <strong>Containers &amp; Cloud:</strong> Docker, Git, Linux / Bash<br>
+      <strong>Schedulers:</strong> Slurm, LSF, Moab
+    </p>
+  </div>
 
-### Data Infrastructure
-*   Experience in using HPC environments, job scheduling systems
-*   Pipeline development, snakemake, WDL
-*   Creating and querying SQL databases (SQLite, postgreSQL)
-*   Version control (git), containers (docker) and linux systems
+  <div class="project-card">
+    <h4 style="margin-top:0;"><i class="fas fa-dna"></i> Multi-Omics &amp; Clinical Data</h4>
+    <p style="font-size: 0.9rem; color: var(--color-slate-600);">
+      <strong>Genomics:</strong> WGS, WES (SNV/SV calling &amp; annotation)<br>
+      <strong>Transcriptomics:</strong> Bulk RNA-Seq, scRNA-Seq, scATAC-Seq, aberrant splicing<br>
+      <strong>Single-Cell &amp; CyTOF:</strong> Data gating, differential abundance
+    </p>
+  </div>
+
+  <div class="project-card">
+    <h4 style="margin-top:0;"><i class="fas fa-chart-line"></i> Statistics &amp; AI</h4>
+    <p style="font-size: 0.9rem; color: var(--color-slate-600);">
+      <strong>Statistical Modeling:</strong> Generalized Linear Models, Mixed Effects, MCMC, Time Series<br>
+      <strong>Machine Learning:</strong> Neural Networks, Transformers, Random Forests, SVM, Clustering<br>
+      <strong>Computer Vision &amp; NLP:</strong> Clinical note extraction, segmentation, object detection
+    </p>
+  </div>
+
+</div>

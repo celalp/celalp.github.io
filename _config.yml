@@ -13,17 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Welcome!
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  I'm a driven data scientist with a Ph.D. fueled by innovative research. My technical skills are rock-solid—I'm proficient in Python, 
-  R, and SQL for tackling large datasets, and I have extensive experience building and optimizing machine learning models using 
-  TensorFlow, PyTorch, and scikit-learn. I excel at developing predictive algorithms, streamlining data pipelines with tools 
-  and transforming complex data into clear, actionable insights. I'm passionate about leading high-impact projects, solving 
-  tough problems, and mentoring teams. I enjoy thinking about data and how we see data with its implications well beyond a single domain. 
+title: "Alper Celik, Ph.D. | Senior Bioinformatician & Data Scientist"
+email: "celalper@gmail.com"
+description: >-
+  Senior Bioinformatician & Data Scientist specializing in machine learning, high-performance computing, clinical NLP, and multi-omics data integration.
 
 github_username: celalp
-minimal_mistakes_skin: dirt
+minimal_mistakes_skin: air
 search: true
 
 footer:
@@ -45,7 +41,6 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
-  - _talks
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -68,12 +63,12 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Alper Celik"
+  name   : "Alper Celik, Ph.D."
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Data scientist and bioinformatician with a passion for machine learning and data analysis. I enjoy exploring the intersection of biology and technology to uncover insights from complex datasets."
+  bio    : "Senior Bioinformatician & Data Scientist at SickKids. Expert in machine learning, multi-omics pipelines, clinical NLP, and data infrastructure."
   links:
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-globe"
       url: "https://celalp.github.io/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -82,7 +77,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/alper-celik-51336460/"
     - label: "Google Scholar"
-      icon: "fab fa-fw fa-google-scholar"
+      icon: "fas fa-fw fa-graduation-cap"
       url: https://scholar.google.ca/citations?user=pM7OqIYAAAAJ&hl=en
 
 permalink: /:categories/:title/

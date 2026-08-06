@@ -5,29 +5,56 @@ permalink: /projects/
 author_profile: true
 projects:
   - title: "Benchmate"
-    description: "Benchmate is a data aggreation tool that allows scientists to aggregate data from multiple sources such as public APIs, literature searches, and other data sources. Benchmate includes tools to represent biological data with different data types such as genomes, sequences, protein structures small molecules and more. Benchmate is currently in development and is available on GitHub. Our ultimate goal is to make data collection, analysis and hypothesis generation more accessible and reproducible."
+    tags: ["Open Source", "Python", "Bioinformatics", "API Integration"]
+    description: "Benchmate is a data aggregation platform that enables scientists to fetch and integrate biological data from multiple sources including public APIs, literature databases, and molecular structure repositories. It provides specialized data structures for genomes, protein sequences, 3D structures, and small molecules, streamlining data collection and reproducible hypothesis generation."
     link: "https://ccmbioinfo.github.io/ccm_benchmate/"
-  - title: "Chirpp"
-    description: "CHIRPP program is a Canadian program to track trends in child injuries to inform policy and practice. This program has traditionally been done by manual data entry and analysis. We have developped a robust data pipeline with custom trained models to analyze large volumes of data and provide insights to inform policy and practice. Our pipeline is currently in use by the CHIRPP program and can extract large quantities of data in an automated manner from unstructured clinical notes reducing the manual work by >80% and making sure that the data is consistent, accurate and generated in a timely manner."
-  - title: "Allergy"
-    description: "Nut allergies are a common cause of anaphylaxis in children and adults alike. This project is an ongoing project to analyze, understand and predict the causes and molecular underpinnings of nut allergies. This project is in collaboration with the Eiwegger lab at University of Vienna and other collaborators. We have developed robust statistical models to predict the likelihood of nut allergies. Categorized gut responses to allergen stimuli and more. Our current goals include development of oral immunotherapies, understanding cross and co sensitizations, and development of new biomarkers for nut allergies."
+
+  - title: "CHIRPP AI & Clinical NLP Pipeline"
+    tags: ["Clinical NLP", "PyTorch", "Transformers", "SickKids"]
+    description: "The Canadian Hospitals Injury Reporting and Prevention Program (CHIRPP) tracks pediatric injury trends to inform public policy. We engineered a clinical NLP pipeline leveraging fine-tuned transformer models to extract structured diagnostic information from unstructured emergency department clinical notes, reducing manual chart review by over 80% with high precision."
+
+  - title: "Nut Allergy Biomarkers & Predictive Modeling"
+    tags: ["Statistical Modeling", "Clinical Immunology", "Multi-Center Study"]
+    description: "In collaboration with the Eiwegger Lab (University of Vienna & SickKids), this project develops statistical models to predict food allergy severity and treatment outcomes. We model allergen-induced intestinal contractions and immune responses to discover novel diagnostic biomarkers, analyze co-sensitizations, and optimize oral immunotherapies."
+
   - title: "Mnemosyne"
-    description: "Mnemosyne, the Titan goddess of memory, was the daughter of Uranus and Gaia and mother of the nine muses. Inspired by her role as the source of inspiration and knowledge, this project aims to bring together the different stages of qualitative research into one integrated system. The ultimate goal of this project is to make qualitative research more accessible and reproducible. This project is under heavy development and is currently in alpha. I am planning this project to be open source and available on GitHub."
+    tags: ["Qualitative AI", "Open Source", "Web App"]
+    description: "Inspired by the Titan goddess of memory, Mnemosyne is an open-source suite designed to integrate qualitative research workflows. It streamlines data coding, synthesis, and knowledge extraction to make qualitative data analysis transparent, rigorous, and reproducible."
     link: "https://celalp.github.io/mnemosyne/"
-  - title: "Diagnostic RNA-Seq Pipeline"
-    description: "Despite advances in genome sequencing, many individuals with rare genetic disorders remain undiagnosed. Transcriptional profiling via RNA-seq can reveal functional impacts of DNA variants and improve diagnosis. We developed a robust pipeline to analyze RNA-seq data and improve diagnosis of rare genetic disorders in a tissue specific manner. This is the first clinically validated diagnostic RNA-seq pipeline in Toronto that is being actively used in SickKids Genome Clinic."
+
+  - title: "Diagnostic RNA-Seq Pipeline for Rare Diseases"
+    tags: ["Genomics", "RNA-Seq", "Clinical Diagnostics", "Snakemake"]
+    description: "Transcriptional profiling via RNA-seq can uncover functional impacts of DNA variants in undiagnosed rare genetic diseases. We built and validated the first clinical-grade diagnostic blood RNA-seq pipeline at SickKids Genome Clinic, automating splice-variant detection, outlier expression calling, and allele-specific expression analysis."
 ---
 
-These some of my longer term projects that I am currently working on. These projects range from multi year collaborations to smaller scale projects that I am working on in my free time. Not all my publications are reflected in the project list, I am including things that are longer term collaborations or projects that lead to more than just publications.
+<div class="custom-card" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); margin-bottom: 2rem;">
+  <h2 style="margin-top:0; color: var(--color-primary);"><i class="fas fa-project-diagram"></i> Research &amp; Software Projects</h2>
+  <p style="margin-bottom:0; color: var(--color-slate-600);">
+    These are long-term research initiatives, open-source software packages, and clinical pipeline architectures I have designed and lead. They encompass multi-year scientific collaborations, clinical deployment pipelines at SickKids, and open-source computational tools.
+  </p>
+</div>
 
+<div class="projects-grid">
 {% for project in page.projects %}
-## {{ project.title }}
-
-{{ project.description }}
-
-{% if project.link %}
-[View Project]({{ project.link }})
-{% endif %}
-
----
+  <div class="project-card">
+    <div>
+      <h3 class="project-title">{{ project.title }}</h3>
+      <div class="project-tags">
+        {% for tag in project.tags %}
+        <span class="badge badge-tech">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      <p class="project-desc">{{ project.description }}</p>
+    </div>
+    <div>
+      {% if project.link %}
+      <a href="{{ project.link }}" target="_blank" rel="noopener" class="btn-custom-primary" style="font-size: 0.85rem; padding: 0.45rem 1rem;">
+        <i class="fas fa-external-link-alt"></i> View Repository / Project
+      </a>
+      {% else %}
+      <span class="badge badge-venue"><i class="fas fa-hospital-user"></i> Active Clinical / Institutional Project</span>
+      {% endif %}
+    </div>
+  </div>
 {% endfor %}
+</div>
