@@ -30,7 +30,7 @@ projects:
 <div class="custom-card" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); margin-bottom: 2rem;">
   <h2 style="margin-top:0; color: var(--color-primary);"><i class="fas fa-project-diagram"></i> Research &amp; Software Projects</h2>
   <p style="margin-bottom:0; color: var(--color-slate-600);">
-    These are long-term research initiatives, open-source software packages, and clinical pipeline architectures I have designed and lead. They encompass multi-year scientific collaborations, clinical deployment pipelines at SickKids, and open-source computational tools.
+    These are long-term research initiatives, open-source software packages, and clinical pipeline architectures I have designed and lead. They encompass multi-year scientific collaborations, clinical deployment pipelines at SickKids, and open-source computational tools some of these projects are ongoing and under heavy development.
   </p>
 </div>
 
